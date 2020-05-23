@@ -1,9 +1,12 @@
 package uvsq.pglp;
 
-public interface  interface_salaire {
-
-	
-		double salaire_Calcul();
-	
-
+/**
+ * l'interface interface_salaire qui calcul le salaire, avec la commission .
+ * @author koussiala HAMMOUCHE .
+ */
+public interface interface_salaire {
+	/**
+	 * methede qui calcul le salaire, avec la commission .
+	 */
+	double salaire_Calcul();
 }
