@@ -1,35 +1,48 @@
 package uvsq.pglp;
-
+/**
+ * la classe employe.
+ * @author koussiala HAMMOUCHE .
+ */
 public class employe {
+	/**
+	 * le identifiant de l employe id.
+	 */
+	private int id;
+	/**
+	 * le salaire de l employe salaire.
+	 */
+	private int salaire;
+	/**
+	 * lencienter de l employe encienter.
+	 */
+	private int encienter;
 
-	private   int id ; 
-	private int salaire ;  
-	private int encienter;  
-	 
-	 
-	
-	
-	public employe(int id , int salaire , int encienter) { 
-		
-		this.id = id ; 
-		this.salaire = salaire; 
-		this.encienter = encienter; 
-		
-		// TODO Auto-generated constructor stub
+	/**
+	 * le constroctor de employe .
+	 * @param id        de employe .
+	 * @param salaire   .
+	 * @param encienter .
+	 */
+	public employe(int id, int salaire, int encienter) {
+
+		this.id = id;
+		this.salaire = salaire;
+		this.encienter = encienter;
 	}
 
-	
-	 public int  salaire_Calcul() {
-		return encienter * 20 + 1500 ; 
-		// TODO Auto-generated constructor stub
+	/**
+	 * methede qui calcul le salaire, pour employe la commission .
+	 * @return encienter * 20 + 1500
+	 */
+
+	public int salaire_Calcul() {
+		return encienter * 20 + 1500;
 	}
-	 
-	 
-	 public void modifier_encienter(int nbr) {
-		 encienter = encienter + nbr ; 
-		 
-	 }
-	 
-	 
+
+	/**
+	 * methode modifier_encienter encienter = encienter + nbr
+	 */
+	public void modifier_encienter(int nbr) {
+		encienter = encienter + nbr;
+	}
 }
- 
